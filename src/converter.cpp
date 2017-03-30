@@ -1,10 +1,5 @@
 #include <ros/ros.h>
-#include <geometry_msgs/PoseWithCovarianceStamped.h>
-#include <geometry_msgs/Twist.h>
-
 #include "vc_node.h"
-
-void poseCallback(const geometry_msgs::PoseWithCovarianceStamped &msg);
 
 int main(int argc, char **argv)
 {
